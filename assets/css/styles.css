@@ -8,7 +8,7 @@
 
 /*===== Colores =====*/
 :root{
-  --first-color: #4070F4;
+  --first-color: #3b5998;
   --second-color: #0E2431;
 }
 
@@ -164,6 +164,7 @@ img{
 }
 .nav__logo{
   color: var(--second-color);
+  font-size: large;
 }
 .nav__toggle{
   color: var(--second-color);
@@ -223,8 +224,11 @@ img{
   
 }
 .home_img_tag{
-  border-radius: 100%0;
-  object-fit: contain;
+  margin-left: 60px;
+  height: 450px;
+  width: 450px;
+  border-radius: 100%;
+  /* object-fit: contain; */
 }
 
 /*BUTTONS*/
